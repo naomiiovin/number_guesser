@@ -1,0 +1,16 @@
+/* As we're using bootstrap CSS, there is not much to do with a separate CSS file, but I had to remove the annoying arrows
+in the input and didn't want to put it in the HTML file */
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
